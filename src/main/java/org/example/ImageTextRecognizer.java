@@ -16,9 +16,6 @@ import java.awt.image.Kernel;
 import java.awt.image.ConvolveOp;
 import java.util.Set;
 
-//"Los Robles No. 1000 ","Capellania Ramos Arizpe,", "Coahuila, 25903 Mexico"
-                    //"Los Robles No. 1000 Capellania Ramos Arizpe, Coahuila, 25903 Mexico"
-
 
 
 public class ImageTextRecognizer {
@@ -27,16 +24,8 @@ public class ImageTextRecognizer {
 
         // Define multiple search phrases
         String[] phrases = {
-                /* "Los Robles No. 1000",
+                 "Los Robles No. 1000 ",
                  "Capellania Ramos Arizpe,",
-                 "25903",
-                 "Coahuila, 25903 Mexico"*/
-                //"11 to 50",
-                //"Mexico",
-                // Add more phrases here
-                //"Los Robles No. 1000 Capellania Ramos Arizpe, Coahuila, 25903 Mexico"
-                 "Los Robles No 1000 ",
-                 "Capellania Ramos Arizpe",
                  "Coahuila, 25903 Mexico"
 
         };
